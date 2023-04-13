@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chela+One&family=Modak&family=Rock+Salt&family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <img class="contactimage" src="scubafish.png" alt="Sea turtle">
+    </div>
+    <h1>DIVE INTO THE ADVENTURE!</h1>
+    <p>This form will be submitted through email directly to seabubbles@gmail.com</p>
+    <div class="contactus">
+        <form action="thankyou.html" method="get">
+            <div>
+                <!--name-->
+                <label for="FirstName">First Name 
+                    <input type="text" name="FirstName" id="FirstName" placeholder="Enter Your First Name" autofocus
+                        required>
+                </label>
+                <label for="LastName">Last Name
+                    <input type="text" name="LastName" id="LastName" placeholder="Enter Your Last Name">
+                </label><br>
+                <!--email-->
+                <label for="EnteredEmail">Email
+                    <input type="email" name="EnteredEmail" id="EnteredEmail" placeholder="Enter Your Email">
+                </label>
+                <!--phone number-->
+                <label for="PhoneNumber">Phone Number
+                    <input type="tel" name="PhoneNumber" id="PhoneNumber" placeholder="Enter Your Phone Number">
+                </label><br>
+                <!--experience level-->
+                <label for="ExperienceLevel">Experience Level</label>
+                    <select name="ExperienceLevel" id="ExperienceLevel">
+                        <option value="NoExperience">No Experience</option>
+                        <option value="LittleExperience">Little Experience</option>
+                        <option value="ModerateExperience">Moderate Experience</option>
+                        <option value="Certified">Certified</option>
+                    </select><br>
+                <label for="NumInGroup">How many people will be in your    group?  
+                    <input type="text" name="NumInGroup" id="NumInGroup" placeholder="Number In Group"><br>
+                </label>
+                <!--date selection-->
+                <label for="divedate">Select a day to dive</label>
+                    <input type="date" id="divedate" name="divedate">
+                <p>Please expect a response within the next 24 hours to get an estimate!</p>
+                <!--submit button-->
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+    <h2>DIRECT CONTACT INFORMATION</h2>
+   
+    
+
+    
+</body>
+</html>
